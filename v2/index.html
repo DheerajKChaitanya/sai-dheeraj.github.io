@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dheeraj Kanchibhotla — Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#0b1220">
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- NAV -->
+    <header class="nav sticky">
+      <div class="nav-left">
+        <div class="brand"> <span class="dot">DK.</span></div>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Technical Stack</a>
+          <a href="#skillset">Skill Set</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#academics">Academics</a>
+         <!-- <a href="#achievements">Achievements</a> -->
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <button id="themeToggle" class="icon-btn big" title="Toggle theme"></button>
+        <a href="assets/Resume_Dheeraj_Kanchibhotla.pdf" class="btn" download>Resume</a>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="intro">
+          <h1>Hi, I'm <span class="accent">Dheeraj Kanchibhotla</span></h1>
+          <p class="tag">Senior Software Developer — Java • Spring Boot • AWS • Microservices</p>
+          <p class="desc">
+            I design and build cloud-native, resilient systems and APIs. Experienced in migrating monoliths to microservices,
+            implementing event-driven architectures, and delivering production-grade services on AWS & OpenShift.
+          </p>
+          <div class="cta">
+            <a href="#projects" class="btn">View projects</a>
+            <a href="#contact" class="btn ghost">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-inner">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="ti-header">
+              <div class="ti-left">
+                <span class="role">Senior Developer</span>
+                <span class="company">Emirates NBD (ENBD X Transformation)</span>
+              </div>
+              <div class="ti-period">Nov 2023 — Present</div>
+            </div>
+            <div class="ti-body">
+              <p>Designed and delivered Spring Boot microservices and NodeJS APIs, deployed on OpenShift. Implemented monitoring with ELK and logging best-practices.</p>
+              <p class="tech"><strong>Tech:</strong> Java 11, Spring Boot, NodeJS, MongoDB, OpenShift, ELK, Jenkins</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="ti-header">
+              <div class="ti-left">
+                <span class="role">Senior Consultant</span>
+                <span class="company">JPMorgan Chase (CCB Voice OPT)</span>
+              </div>
+              <div class="ti-period">Aug 2022 — Sep 2023</div>
+            </div>
+            <div class="ti-body">
+              <p>Migration of legacy card applications to microservices; implemented event-driven flows with Kafka and serverless patterns using AWS Lambda.</p>
+              <p class="tech"><strong>Tech:</strong> Kafka, AWS (EKS, Lambda), Spring Boot, Docker, Kubernetes</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="ti-header">
+              <div class="ti-left">
+                <span class="role">Software Engineer</span>
+                <span class="company">Oracle (OHIP)</span>
+              </div>
+              <div class="ti-period">Jan 2021 — May 2022</div>
+            </div>
+            <div class="ti-body">
+              <p>Built integration microservices and maintained Kubernetes deployments & API gateways for hospitality platform integrations.</p>
+              <p class="tech"><strong>Tech:</strong> Helidon, Docker, Kubernetes, Swagger</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="ti-header">
+              <div class="ti-left">
+                <span class="role">Java Developer</span>
+                <span class="company">Capgemini</span>
+              </div>
+              <div class="ti-period">2017 — 2020</div>
+            </div>
+            <div class="ti-body">
+              <p>Worked across telecom, airports and enterprise projects — Spring Boot microservices, CI/CD pipelines and testing.</p>
+              <p class="tech"><strong>Tech:</strong> Java, Spring Boot, Jenkins, SonarQube</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="section-inner">
+        <h2>Selected Projects</h2>
+        <div class="projects-grid">
+          <article class="project">
+            <div class="proj-head">
+              <h3>ENBD X Transformation</h3>
+              <span class="tag-small">Java • Spring Boot • OpenShift</span>
+            </div>
+            <p>Microservices for banking use-cases — implemented resilient APIs, data stores and monitoring solutions.</p>
+          </article>
+          <article class="project">
+            <div class="proj-head">
+              <h3>CCB Voice OPT</h3>
+              <span class="tag-small">Kafka • AWS Lambda • Spring Boot</span>
+            </div>
+            <p>Monolith to microservices migration and event-driven components for card-processing flows.</p>
+          </article>
+          <article class="project">
+            <div class="proj-head">
+              <h3>OHIP — Oracle Hospitality</h3>
+              <span class="tag-small">Helidon • Docker • Kubernetes</span>
+            </div>
+            <p>Integration platform microservices and API gateway maintenance for hospitality integrations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL STACK -->
+    <section id="skills" class="section">
+      <div class="section-inner">
+        <h2>Technical Stack</h2>
+        <div class="skills-grid">
+          <div class="skill-card"><div class="skill-head"><i class="fab fa-java"></i><strong>Java & Spring</strong></div><p>Java 8/11, Spring Boot, Spring MVC, Spring Cloud</p></div>
+          <div class="skill-card"><div class="skill-head"><i class="fab fa-aws"></i><strong>AWS & Cloud</strong></div><p>EC2, S3, Lambda, EKS — cloud deployments & monitoring</p></div>
+          <div class="skill-card"><div class="skill-head"><i class="fab fa-docker"></i><strong>Containers</strong></div><p>Docker, Kubernetes, OpenShift, Container CI/CD</p></div>
+          <div class="skill-card"><div class="skill-head"><i class="fas fa-stream"></i><strong>Streaming</strong></div><p>Kafka, JMS — event-driven architectures</p></div>
+          <div class="skill-card"><div class="skill-head"><i class="fas fa-database"></i><strong>Databases</strong></div><p>MongoDB, Oracle, MySQL — schema & integration design</p></div>
+          <div class="skill-card"><div class="skill-head"><i class="fas fa-tools"></i><strong>CI / Monitoring</strong></div><p>Jenkins, SonarQube, ELK, Splunk — pipelines & observability</p></div>
+          <div class="skill-card"><div class="skill-head"><i class="fab fa-node-js"></i><strong>NodeJS / TS</strong></div><p>APIs, server-side work and tooling in TypeScript</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILL SET -->
+    <section id="skillset" class="section alt">
+      <div class="section-inner">
+        <h2>Skill Set</h2>
+        <ul class="list">
+          <li><strong>Operating Systems:</strong> Windows, Linux</li>
+          <li><strong>Languages:</strong> Java, Python</li>
+          <li><strong>Frameworks:</strong> Spring Boot, Spring MVC, REST, Microservices, AWS, Hibernate, Kafka, Akka, JPA, Mockito, SonarQube</li>
+          <li><strong>Messaging:</strong> JMS, Kafka</li>
+          <li><strong>DevOps:</strong> CI/CD, Docker, Kubernetes</li>
+          <li><strong>Web Tools:</strong> HTML5, CSS3, NodeJS, Angular, TypeScript, JavaScript</li>
+          <li><strong>Databases:</strong> Oracle, MySQL, MongoDB, DynamoDB, ElasticSearch, Redshift</li>
+          <li><strong>Monitoring:</strong> ELK, Splunk</li>
+          <li><strong>Cloud Platforms:</strong> AWS, Oracle Cloud, OpenShift</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="section-inner">
+        <h2>Certifications</h2>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <i class="fas fa-certificate"></i>
+            <p><strong>Software Engineering Virtual Experience</strong> — JPMorgan Chase & Co.</p>
+            <span class="muted">Verification: ug5FN6xoTgnyaFxe4</span>
+          </div>
+          <div class="cert-card">
+            <i class="fas fa-certificate"></i>
+            <p><strong>AWS Partner Accreditation Course</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMICS -->
+    <section id="academics" class="section alt">
+      <div class="section-inner">
+        <h2>Academics</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="ti-header">
+              <div class="ti-left"><span class="role">B.Tech (CSE)</span><span class="company">Koneru Lakshmiah University</span></div>
+              <div class="ti-period">GPA: 7.75</div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="ti-header">
+              <div class="ti-left"><span class="role">Intermediate</span><span class="company">Sri Chaitanya Jr. College</span></div>
+              <div class="ti-period">86%</div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="ti-header">
+              <div class="ti-left"><span class="role">Secondary</span><span class="company">Dr. K.K.R Gowtham International School</span></div>
+              <div class="ti-period">91%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <div class="section-inner">
+        <h2>Achievements</h2>
+        <ul class="list">
+          <li>Received Client Appreciation for quality delivery</li>
+          <li>Awarded Pluralsight “Power User” for content utilization</li>
+          <li>Completed AWS Partner Accreditation Course</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="section-inner contact-grid">
+        <div class="contact-card">
+          <h3>Let’s Collaborate ✨</h3>
+          <p class="catchy">Have an idea or just want to say hi? <br> Let’s build something amazing together 🚀</p>
+          <p><i class="fas fa-envelope"></i> saidheeraj.devfs@gmail.com</p>
+    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sai-dheeraj-kanchibhotla-37801b114/" target="_blank">LinkedIn</a></p>
+    <p><i class="fab fa-github"></i> <a href="https://github.com/DheerajKChaitanya" target="_blank">GitHub</a></p>
+        </div>
+
+        <form class="contact-card contact-form" action="mailto:dheeraj@example.com" method="post" enctype="text/plain">
+          <h3>Message Me</h3>
+          <input name="name" placeholder="Your name ✨" required>
+          <input name="email" type="email" placeholder="Your best email 📧" required>
+          <textarea name="message" rows="5" placeholder="Tell me about your idea 💡" required></textarea>
+          <div class="form-row">
+            <button class="btn" type="submit">Send Message 🚀</button>
+            <button class="btn ghost" type="reset">Clear</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Dheeraj Kanchibhotla — Built with ❤️</div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
